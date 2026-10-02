@@ -11,17 +11,29 @@ public class  InClass {
 
         // STEP 1 — we make the rover's variables together, here, and print them.
         String rover = "Sting";
+        //crates a string variable named sting.
         int battery = 87;
+        //creates a int variable and assigns it a value of 87.
         double speed = 1.5;
+        //creates a double variable and assigns it a value of 1.5.
         char node = 'c';
+        //creates a char variable and assigns it to 'c'.
         boolean lightson = true;
+        //creates a boolean variable and assigns it to true  or false.
         System.out.println("Rover " + rover + " has "+battery+"% battery.");
+        //prints text using variables.
         System.out.println("Speed: "+speed + " m/s, node "+node+", lights on: "+lightson);
+        //prints text using variables
         battery = battery-12;
+        //changes the int variable using arithmetic
         System.out.println("After driving, battery is "+battery+"%.");
+        //prints text using variables.
         int fuel = 87;
+        //creates a int variable and assigns it to 87.
         char grade = 'C';
+        //creates a char variable and assigns it to 'c'.
         System.out.println(battery);
+        //prints the value of the variable battery.
 
 
 
