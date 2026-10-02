@@ -7,7 +7,21 @@ package part01;
 // SECTION D — Challenge. Draw a picture. The README lists the rules.
 //
 // There is no main method here yet. Typing it is part of the challenge.
-
+/*
+     ----
+ ----    --"--
+ |           |
+\----0---0---
+::::::::::::::
+ */
 public class Challenge {
+    public static void main(String[] args) {
+        System.out.print("\t ----\n");
+        System.out.println(" ----\t--\"--");
+        System.out.println(" |\t\t\t|");
+        System.out.println("\\----0---0---");
+        System.out.print("::::::::::::::");
+
+    }
 
 }
