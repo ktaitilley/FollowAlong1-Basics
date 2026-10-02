@@ -6,10 +6,22 @@ package part02;
 // In-class exercise — we do this together in class. Not graded, but commit it.
 // The README (In-class exercise) has the steps and the output to match.
 
-public class InClass {
+public class  InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we make the rover's variables together, here, and print them.
+        String rover = "Sting";
+        int battery = 87;
+        double speed = 1.5;
+        char node = 'c';
+        boolean lightson = true;
+        System.out.println("Rover " + rover + " has "+battery+"% battery.");
+        System.out.println("Speed: "+speed + " m/s, node "+node+", lights on: "+lightson);
+        battery = battery-12;
+        System.out.println("After driving, battery is "+battery+"%.");
+        int fuel = 87;
+        char grade = 'C';
+        System.out.println(battery);
 
 
 
@@ -17,9 +29,9 @@ public class InClass {
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error. Fix it. Run it. Then do the next line.
         /*
-        int fuel = 87.5;
-        char grade = "C";
-        System.out.println(Battery);
+
+
+
         */
     }
 }
