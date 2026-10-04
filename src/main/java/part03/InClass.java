@@ -1,5 +1,5 @@
 package part03;
-
+import java.util.Scanner;
 // Type the Scanner import line here, on the empty line below.
 
 
@@ -13,6 +13,25 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we ask for two team names together, here, and swap them.
+        Scanner scanner =new Scanner(System.in);
+        String home = scanner.nextLine();
+        String away = scanner.nextLine();
+
+
+
+        System.out.println("Home Team: "+home);
+        System.out.println("Away Team: "+away);
+        System.out.println("Before: "+home + " vs " + away);
+        String temp = home;
+        home = away;
+        away = temp;
+
+        System.out.println("After Halftime: "+home + " vs " + away);
+
+        System.out.println("Home: " + home);
+        Scanner keyboard = new Scanner(System.in);
+        String coach = "Coach K";
+
 
 
 
@@ -20,9 +39,9 @@ public class InClass {
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error. Fix it. Run it. Then do the next line.
         /*
-        System.out.println("Home: " + Home);
-        Scanner keyboard = new scanner(System.in);
-        String coach = "Coach K;
+
+
+
         */
     }
 }
