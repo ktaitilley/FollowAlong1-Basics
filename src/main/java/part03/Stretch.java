@@ -11,7 +11,13 @@ import java.util.Scanner;
 
 public class Stretch {
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         /*
+        22
+        21
+        What is your name?
+        ktai
+        Hi, ktai!
 
          */
         int a = 1;
@@ -30,6 +36,38 @@ public class Stretch {
         System.out.println("What is your name?");
         String name = scanner.nextLine();
         System.out.println("Hi, " + name+"!");
+
+
+        System.out.println("What is your name?");
+        String title = scan.nextLine();
+        System.out.println("Hi, " + title+"!");
+
+
+        String first = "red";
+        String second = "green";
+        String third = "blue";
+        System.out.println(first + " " + second + " " + third);
+        String temp1;
+        temp1 = first;
+        first = second;
+        second = third;
+        third = temp1;
+        System.out.println(first + " " + second + " " + third);
+
+
+        //it didnt work at first because it doesnt read a input just moves to the next line which is nothing.kt
+        System.out.println("How old are you?");
+        int age = scan.nextInt();
+        scan.nextLine();
+        System.out.println("What city do you live in?");
+        String city = scan.nextLine();
+        System.out.println(age + " years old, living in " + city+ ".");
+
+
+
+
+
+
 
     }
 
