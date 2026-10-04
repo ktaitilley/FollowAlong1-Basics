@@ -17,13 +17,21 @@ package part03;
 public class Swap {
     public static void main(String[] args) {
         String x = "water";
+        //creates a string variable named x and assigns it the value "water".
         String y = "Kool-Aid";
+        //creates a string variable named y and assigns it the value "kool aid".
         String temp;
+        //creates a string variable named temp.
         temp = x;
+        //temp is assigned the value of x which is water.
         x = y;
+        // x is assigned the value of y which is kool aid.
         y = temp;
+        // y is assigned the value of temp which is water.
         System.out.println("x: "+x);
+        //prints x
         System.out.println("y: "+y);
+        //prints y
     }
 
 }
