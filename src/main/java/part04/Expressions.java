@@ -17,8 +17,11 @@ package part04;
 public class Expressions {
     public static void main(String[] args) {
         double friends = 10;
+        //creates a double variable named friends and assigns it the value of ten
         friends = (double) friends / 3;
+        //cast the result to a double and assign it to friends
         System.out.println(friends);
+        // prints the value of friends.
 
 
     }
