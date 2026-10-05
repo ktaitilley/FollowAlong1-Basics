@@ -1,5 +1,6 @@
 package part05;
-
+import java.util.Scanner;
+import java.util.Random;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3689s
 //        rewatch 61:29–63:52 for Scanner + Math, 66:47–67:40 for dice rolls
 // Guide: GUIDE.md in this folder, steps 7–10 and 13–14
@@ -9,5 +10,28 @@ package part05;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+        System.out.print("What is your name?");
+        String name = scanner.nextLine();
+        int x = (random.nextInt(6)+1);
+        int y = (random.nextInt(6)+1);
+        System.out.println("Hello, " + name +"\n" +
+                "Dice 1: "+ x +"\n" +
+                "Dice 2: "+ y);
+        int total = x + y;
+        System.out.println("The total is: " + total);
+        int max = Math.max(x, y);
+        System.out.println("The max is: " + max);
+        int min = Math.min(x, y);
+        System.out.println("The min is: " + min);
+        int difference = Math.abs(x - y);
+        System.out.println("The difference is: " + difference);
+        double average = (x+y)/2.0;
+        System.out.println("The average is: " + average);
+        System.out.println("The average is: " + Math.round(average));
+
+    }
 
 }
