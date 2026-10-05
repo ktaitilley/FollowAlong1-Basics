@@ -18,21 +18,21 @@ import java.util.Random;
 public class RandomNumbers {
     public static void main(String[] args) {
         Random random = new Random();
-        //
+        // creates a new random object.
         int x = random.nextInt(6)+1;
-        //
+        //assigns a random int between 1 and 6 and assigns it to x.
         System.out.println(x);
-        //
+        //prints the value of x.
 
         double y = random.nextDouble();
-        //
+        //assigns a random int and assigns it to y.
         System.out.println(y);
-        //
+        //prints the value of y.
 
         boolean z = random.nextBoolean();
-        //
+        //gives a random true or false and assigns it to z.
         System.out.println(z);
-        //
+        //prints the value of z.
 
     }
 
